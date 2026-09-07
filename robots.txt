@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sprightly-brigadeiros-4877a2.netlify.app/sitemap.xml
