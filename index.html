@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern responsive HTML CSS JavaScript website">
+  <title>Nova Studio | Creative Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">Nova<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content reveal">
+        <p class="eyebrow">CREATIVE DIGITAL STUDIO</p>
+        <h1>We build digital experiences that <span>stand out.</span></h1>
+        <p class="hero-text">Modern websites, powerful brands, and memorable digital products designed to help ambitious businesses grow.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#portfolio">Explore Work</a>
+          <a class="btn secondary" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="glass-card">
+          <div class="mini-top"><span></span><span></span><span></span></div>
+          <div class="chart"></div>
+          <div class="mini-lines"><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT US</p>
+        <h2>Ideas into <span>impact.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>Nova Studio is a creative digital agency focused on building elegant, fast, and effective digital experiences.</p>
+          <p>We combine strategy, design, and technology to turn ambitious ideas into products people love to use.</p>
+        </div>
+        <div class="stats reveal">
+          <div><strong>120+</strong><span>Projects</span></div>
+          <div><strong>80+</strong><span>Happy Clients</span></div>
+          <div><strong>6+</strong><span>Years Experience</span></div>
+          <div><strong>15</strong><span>Team Members</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT WE DO</p>
+        <h2>Our <span>services.</span></h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+    <img 
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJOUnPKf_6tURHTWXgovZuSPPucBFQwMlZo-915PDrFg&s=10"
+        alt="Web Design"
+        class="service-image"
+    >
+
+    <div class="icon">✦</div>
+    <h3>Web Design</h3>
+    <p>Clean, modern interfaces crafted around your brand and your customers.</p>
+</article>
+       <article class="card reveal">
+    <img 
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJBfSwwvyRnWo6VrTsnncFwdCwQ76SQulzySiUzhWatQ&s=10"
+        alt="Development"
+        class="service-image"
+    >
+
+    <div class="icon">✦</div>
+    <h3>Development</h3>
+    <p>Fast, responsive websites built with clean code and modern web technologies.</p>
+</article>
+        <article class="card reveal"><div class="icon">◎</div><h3>Brand Identity</h3><p>Distinct visual identities that make your business recognizable and memorable.</p></article>
+        <article class="card reveal"><div class="icon">↗</div><h3>Digital Strategy</h3><p>Practical strategies that connect your digital presence to real business goals.</p></article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section portfolio">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Featured <span>projects.</span></h2>
+      </div>
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="brand">Brand</button>
+        <button class="filter" data-filter="app">App</button>
+      </div>
+      <div class="projects">
+        <article class="project reveal" data-category="web"><div class="project-image gradient-one">01</div><h3>Orbit Finance</h3><p>Web · Fintech</p></article>
+        <article class="project reveal" data-category="brand"><div class="project-image gradient-two">02</div><h3>Mono Coffee</h3><p>Brand · Packaging</p></article>
+        <article class="project reveal" data-category="app"><div class="project-image gradient-three">03</div><h3>Flow Fitness</h3><p>App · Wellness</p></article>
+        <article class="project reveal" data-category="web"><div class="project-image gradient-four">04</div><h3>North Architecture</h3><p>Web · Architecture</p></article>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section-heading reveal">
+        <p class="eyebrow">CLIENT LOVE</p>
+        <h2>What people <span>say.</span></h2>
+      </div>
+      <div class="cards">
+        <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“Nova transformed our outdated website into something our customers genuinely love.”</p><strong>Sarah Khan</strong><small>Marketing Director</small></article>
+        <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“Professional, creative, and incredibly easy to work with. The final result exceeded expectations.”</p><strong>Alex Morgan</strong><small>Founder, Orbit</small></article>
+        <article class="testimonial reveal"><div class="stars">★★★★★</div><p>“They understood our vision immediately and delivered a beautiful digital identity.”</p><strong>Daniel Lee</strong><small>Creative Lead</small></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's create something <span>great.</span></h2>
+      </div>
+      <form id="contactForm" class="contact-form reveal">
+        <div class="form-row">
+          <label>Name<input id="name" type="text" placeholder="Your name"></label>
+          <label>Email<input id="email" type="email" placeholder="you@example.com"></label>
+        </div>
+        <label>Subject<input id="subject" type="text" placeholder="How can we help?"></label>
+        <label>Message<textarea id="message" rows="6" placeholder="Tell us about your project..."></textarea></label>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="logo" href="#home">Nova<span>.</span></a><p>Creative digital experiences.</p></div>
+    <p>© <span id="year"></span> Nova Studio. All rights reserved.</p>
+  </footer>
+
+  <button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
